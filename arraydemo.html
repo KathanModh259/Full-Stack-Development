@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var myarr = [25,30,44,55,99,74]
+        for(var i=0;i<myarr.length;i++){
+            document.write("<br/>" + myarr[i])
+
+        }
+
+        for (i in myarr){
+            document.write("<br/>Index is " + i+ "Value is"+ myarr[i])
+        }
+
+        for (v of myarr){
+            document.write("<br/>"+v)
+
+        }
+        myarr.forEach(function(v,i){
+            document.write("<br/>Value is" +v)
+        })
+    </script>
+</body>
+</html>

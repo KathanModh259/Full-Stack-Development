@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function incrementCounter() {
+            let count = localStorage.getItem('counter') || 0;
+            count++;
+            localStorage.setItem('counter', count);
+            document.getElementById('counter').innerText = count;
+        }
+
+        function resetCounter() {
+            localStorage.removeItem('counter');
+            document.getElementById('counter').innerText = 0;
+        }
+
+        window.onload = function() {
+            let count = localStorage.getItem('counter') || 0;
+            document.getElementById('counter').innerText = count;
+        }
+    </script>
+    <h1>Counter: <span id="counter">0</span></h1>
+    <button onclick="incrementCounter()">Increment</button>
+    <button onclick="resetCounter()">Reset</button>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    function doSum(){
+        //alert("Welcome")
+        n1 = document.getElementById("txt1").value
+        n2 = document.getElementById("txt2").value
+        c= parseInt(n1) + parseInt(n2); // c = n1+n2
+        document.getElementById("ans").innerHTML = "Sum is " +c
+        //document.getElementById("txt1").innerHTML = c
+        //console.writeLine("Sum is :" +c)
+    }
+</script>
+<body>
+    NO1 : <input type="text" id="txt1"/>
+    NO2 : <input type="text" id="txt2"/>
+    <input type= "button" value="Sum" onclick="doSum()"/>
+    <p id="ans"></p>
+    <input type="text" id="ans1" readonly disabled/>
+    
+</body>
+</html>

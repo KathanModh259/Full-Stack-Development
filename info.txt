@@ -1,0 +1,24 @@
+Array & Methods 
+Javascript Objects
+DOM
+Alert prompt
+
+Es6
+----
+let const
+Blacktick
+arrow function
+spread operator
+rest parameter
+class concept
+localstorage
+classback
+
+Core
+localstorage
+third party
+
+package.json file ?
+                Metadata of JS application
+                Stores package name and their version
+                
