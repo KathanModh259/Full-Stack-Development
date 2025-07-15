@@ -1,0 +1,59 @@
+Nodejs ?
+Modules ?
+
+Types :
+         Core Modules
+            http,fs,patch etc
+        Local Modules
+            We can create custom Modules
+            export module.export
+        Third party module
+            Download from Internet       
+            npmjs.com
+            60k+
+            express nodemon nodemailer mongoose
+require() used to call module
+
+Core
+localstorage
+third party
+
+package.json file ?
+                Metadata of JS application
+                Stores package name and their version
+
+              npm init
+              npm init -y
+              npmjs.com  
+
+              npm i nodemon
+              npm install nodemon
+              npm i nodemon -g global savr in computer
+
+npm i nodemon@2.1
+npm i nodemon express nodemailer
+
+npm unistall nodemon
+npm un nodemon
+npm uninstall nodemon -g
+
+
+
+npm init npm init -y
+npm i nodemon npm install nodemon i
+npm
+nodemon -g
+global save in computer
+npm i nodemon@2.1 npm i nodemon express nodemailer
+npm uninstall nodemon npm un nodemon npm uninstall nodemon -g
+nom update nodemon
+-GLobal Level: 
+Run Command Win+R 
+%AppData%
+C:\Users\akash\AppData\Roaming\npm\node_modules
+npm i nodemon -g
+-Project Level inside Project write below command npm i nodemon
+npm i
+
+
+
